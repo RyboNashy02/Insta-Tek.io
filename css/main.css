@@ -22,42 +22,31 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
 a img{
     width:200px
 }
 
-/*Navigation bar position*/
 .sidenav{
     flex: 1;
     text-align: right;
 }
-
-/*Navigation bar layout*/
 .sidenav ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }       
-
-/*Navigation bar design*/
 .sidenav ul li a{
     color: Black;
     text-decoration: none;
     font-size: 20px;
 }
-
-/*Navigation bar hover effect*/
 .hover {
     background:
     linear-gradient(currentColor 0 0) bottom 0   left 50% /var(--a, 0) 3px no-repeat,
     linear-gradient(currentColor 0 0) bottom 6px left 50% /var(--b, 0) 3px no-repeat;
     transition:0.5s;
-
 }
-
-/*Activate hover effect*/
 .hover:hover{
     --a: 60%;
     --b: 100%;
@@ -73,21 +62,15 @@ a img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-
-/*Heading of text box*/
 .text-box h1{
     font-size: 62px;
     color: white;
 }
-
-/*Parapraph of text box*/
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px; 
     color: white;
 }
-
-/*Button of text box*/
 .tb-btn{
     background-color: none;
     border: 2px solid white;
@@ -100,8 +83,6 @@ a img{
     margin: 4px 2px;
     cursor: pointer;
 }
-
-/*Button hover effect of text box*/
 .tb-btn:hover{
     border: 1px solid white;
     background: white;
@@ -119,13 +100,11 @@ nav i.fa{
     
     a img{
     width:100px
-    }
-    
+    }    
     .text-box h1{
         font-size: 30px;
         color: white;
-    }
-    
+    }  
     .sidenav ul{
         position: absolute;
         background-color: lightblue;
@@ -141,31 +120,26 @@ nav i.fa{
         transition: 1.5s;
         display:none;
     }
-
     .sidenav ul li{
         display: block;
         color: black;
         padding: 8px 16px;
         text-decoration: none;
-    }
-    
+    }    
     .sidenav ul li a{
         color: Black;
         text-decoration: none;
         font-size: 20px;
-    }
-    
+    }    
     .hover {
         background:
         linear-gradient(white 0 0) left /100% var(--d, 0%) no-repeat;
         transition: 0s;
-    }
-    
+    }    
     .hover:hover{
         --d: 100%;
         color: white;
     }
-    
     nav i.fa{
         display: block;
         color: black;
@@ -182,12 +156,10 @@ nav i.fa{
     text-align: center;
     padding-top: 100px;
 }
-
 h1{
     font-size: 36px;
     font-weight: 600;
 }
-
 p{
     color: Grey;
     font-size: 14px;
@@ -195,13 +167,11 @@ p{
     line-height: 22px;
     padding: 10px;
 }
-
 .row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-}
-    
+}    
 .services-col{
     flex-basis: 31%;
     background: #bdd4ff;
@@ -211,12 +181,17 @@ p{
     box-sizing: border-box;
     transition: 0.5s;
 }
-
 h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-    
+}
 .services-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-    
+}
+
+@media(max-width: 799px){
+    .row{
+        flex-direction: column;
+    }
+}
