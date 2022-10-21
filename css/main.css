@@ -192,5 +192,6 @@ h3{
 @media(max-width: 799px){
     .row{
         flex-direction: column;
+        padding: 12px 20px;
     }
 }
