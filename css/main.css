@@ -119,7 +119,7 @@ nav i.fa{
     
     a img{
     width:100px
-}
+    }
     
     .text-box h1{
         font-size: 30px;
@@ -179,6 +179,6 @@ nav i.fa{
 .services{
     width: 80%;
     margin: auto;
-    text-align: centre;
+    text-align: center;
     padding-top: 100px;
 }
