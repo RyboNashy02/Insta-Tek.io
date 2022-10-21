@@ -189,7 +189,7 @@ h1{
 }
 
 p{
-    color: #777;
+    color: Grey;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -202,3 +202,11 @@ p{
     justify-content: space-between;
 }
     
+.services-col{
+    flex-basis: 31%;
+    background: blue;
+    border-radius: 10px;
+    margin-botton: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
