@@ -253,7 +253,6 @@ b img{
 }
 .gallery-col img{
     width: 100%;
-    display: block;
 }
 c img{
     max-height: 600px;
