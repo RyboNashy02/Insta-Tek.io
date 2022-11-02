@@ -255,7 +255,8 @@ b img{
     width: 100%;
 }
 c img{
-    max-width: 100%
+    width: 324px;
+    height: 432px;;
 }
 .layer{
     backgorund: transparent;
