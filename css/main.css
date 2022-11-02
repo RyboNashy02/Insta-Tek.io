@@ -192,7 +192,7 @@ h3{
     margin: 10px 0;
 }
 .services-col:hover{
-    box-shadow: 0 0 20px 0px rgba(66,0,3,0.5);
+    box-shadow: 0 0 20px 0px rgba(226,0,3,0.5);
 }
 
 @media(max-width: 799px){
@@ -242,4 +242,12 @@ h3{
 }
 .gallery-col img{
     width: 100%;
+}
+.layer{
+    background: rgba(blue, 0.7);
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
