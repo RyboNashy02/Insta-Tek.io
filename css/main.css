@@ -214,7 +214,7 @@ h3{
     align-items: center;
     justify-content: center
 }
-img{
+b img{
     margin-top: 2%;
     max-width: 60%
 }
@@ -253,4 +253,7 @@ img{
 }
 .gallery-col img{
     width: 100%;
+}
+c img{
+    max-width: 100%
 }
