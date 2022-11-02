@@ -192,7 +192,7 @@ h3{
     margin: 10px 0;
 }
 .services-col:hover{
-    box-shadow: 0 0 20px 0px rgba(226,0,3,0.5);
+    box-shadow: 0 0 20px 0px rgba(0,0,3,0.5);
 }
 
 @media(max-width: 799px){
@@ -244,10 +244,14 @@ h3{
     width: 100%;
 }
 .layer{
-    background: rgba(blue, 0.7);
+    background: transparent;
     height:100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(189,212,255,0.7);
 }
