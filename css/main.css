@@ -239,3 +239,7 @@ h3{
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+}
+.gallery-col img{
+    width: 100%;
+}
