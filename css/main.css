@@ -255,11 +255,7 @@ b img{
     width: 100%;
 }
 c img{
-    max-width: 100%;
-}
-d img{
-    max-width: 100%;
-    max height: 95%;
+    max-height: 500px;
 .layer{
     background: transparent;
     height: 100%;
