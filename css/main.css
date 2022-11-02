@@ -149,7 +149,7 @@ nav i.fa{
     }
 }
 
-/*Service Section*/
+/*services Section*/
 .services{
     width: 80%;
     margin: auto;
@@ -196,3 +196,12 @@ h3{
         padding: 12px 20px;
     }
 }
+
+/*about Section*/
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+    
