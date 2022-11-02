@@ -49,84 +49,11 @@ title: Home
 <section class = 'slideshow'>
         <h1> A Few From Gallery </h1>
         <div class="container">
-                <div class="mySlides">
-                        <div class="numbertext">1 / 6</div>
-                        <img src="css/images/thermo.jpg" style="width:100%">
+                <div class="wrapper">
+                        <img src="https://filmswot.files.wordpress.com/2018/01/coco_dominates_chinese_box_office_.jpg">
+                        <img src="https://www.foundry.com/sites/default/files/inline-images/Images_003_0.jpg">
+                        <img src="https://www.foylefilmfestival.org/sites/default/files/COCO%20main%20image%203.jpg">
+                        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F11%2Fcoco_c330_56b_pub-pub16n-186_rgb-2000.jpg">
                 </div>
-                <div class="mySlides">
-                        <div class="numbertext">2 / 6</div>
-                        <img src="css/images/phone.jpg" style="width:100%">
-                </div>
-                <div class="mySlides">
-                        <div class="numbertext">3 / 6</div>
-                        <img src="css/images/alexa.jpg" style="width:100%">
-                </div>
-                <div class="mySlides">
-                        <div class="numbertext">4 / 6</div>
-                        <img src="css/images/cctv.jpg" style="width:100%">
-                </div>
-                <div class="mySlides">
-                        <div class="numbertext">5 / 6</div>
-                        <img src="css/images/router.jpg" style="width:100%">
-                </div>
-                <div class="mySlides">
-                        <div class="numbertext">6 / 6</div>
-                        <img src="css/images/light.jpg" style="width:100%">
-                </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                <div class="caption-container">
-                        <p id="caption"></p>
-                </div>
-                <div class="row">
-                        <div class="column">
-                                <img class="demo cursor" src="css/images/thermo.jpg" style="width:100%" onclick="currentSlide(1)" alt="Thermostat">
-                        </div>
-                        <div class="column">
-                                <img class="demo cursor" src="css/images/phone.jpg" style="width:100%" onclick="currentSlide(2)" alt="Mobile Controls">
-                                </div>
-                        <div class="column">
-                                <img class="demo cursor" src="css/images/alexa.jpg" style="width:100%" onclick="currentSlide(3)" alt="Alexa">
-                                </div>
-                        <div class="column">
-                                <img class="demo cursor" src="css/images/cctv.jpg" style="width:100%" onclick="currentSlide(4)" alt="Security Camera">
-                                </div>
-                        <div class="column">
-                                <img class="demo cursor" src="css/images/router.jpg" style="width:100%" onclick="currentSlide(5)" alt="Router">
-                                </div>
-                        <div class="column">
-                                <img class="demo cursor" src="css/images/light.jpg" style="width:100%" onclick="currentSlide(6)" alt="Hue Light">
-                                </div>
-                        </div>
-                </div>
-        <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-        showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-        showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("demo");
-        let captionText = document.getElementById("caption");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
-        }
-        </script>
+        </div>       
 </section>
