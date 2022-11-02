@@ -216,7 +216,7 @@ h3{
       img {
         max-width: 100%
       }
-      .image {
+      .sidepic {
         flex-basis: 70%;
         order: 2;
       }
