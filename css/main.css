@@ -154,6 +154,14 @@ nav i.fa{
     }
 }
 
+/*about Section*/
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
 /*services Section*/
 .services{
     width: 80%;
@@ -200,12 +208,3 @@ h3{
         padding: 12px 20px;
     }
 }
-
-/*about Section*/
-.about{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-    
-    
