@@ -225,10 +225,16 @@ img{
 .text{
     padding-left: 20px;
 }
+.dupe{
+    display: none;
+}
 
 @media(max-width: 799px){
     .sidepic{
-        flex-direction: column;
+        display: none;
+    }
+    .dupe{
+        display: block:
     }
 }
 /*gallery Section*/
