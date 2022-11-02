@@ -168,7 +168,6 @@ p{
     padding: 10px;
 }
 .row{
-    margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }    
@@ -176,7 +175,7 @@ p{
     flex-basis: 31%;
     background: #bdd4ff;
     border-radius: 10px;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
