@@ -286,3 +286,15 @@ c img{
     bottom: 49%;
     opacity: 1;
 }
+
+.contact h1{
+    color: White;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width: 799px){
+    .contact h1{
+        font-size: 25px;
+    }
+}
