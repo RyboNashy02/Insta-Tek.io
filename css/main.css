@@ -47,6 +47,7 @@ a img{
     linear-gradient(currentColor 0 0) bottom 0   left 50% /var(--a, 0) 3px no-repeat,
     linear-gradient(currentColor 0 0) bottom 6px left 50% /var(--b, 0) 3px no-repeat;
     transition:0.5s;
+    color: White;
 }
 .hover:hover{
     --a: 60%;
