@@ -282,13 +282,13 @@ c img{
     transform: translateX(-50%);
     position: absolute;
     opacity: 0;
+    color: white;
     transition: 0.5s
 }
 .layer:hover h3{
     bottom: 49%;
     opacity: 1;
 }
-
 .contact h1{
     color: White;
     margin-bottom: 40px;
@@ -300,7 +300,6 @@ c img{
         font-size: 25px;
     }
 }
-
 .footer{
     width: 100%;
     text-align: center;
